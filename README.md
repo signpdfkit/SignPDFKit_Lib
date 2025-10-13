@@ -53,4 +53,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Dwi Karyadi**  
 📧 karyadi.dk@gmail.com  
+📬 [LinkedIn](https://www.linkedin.com/in/dwi-karyadi-179868237/)  
 🌐 [https://github.com/signpdfkit](https://github.com/signpdfkit)
