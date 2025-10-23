@@ -81,7 +81,7 @@ try {
 // Example usage of Verify PDF
 try {
     $verifier = new SignPDFKitVerify($lib_dir);
-    $result = $verifier->verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/php.pdf");
+    $result = $verifier->verify("../assets/output/php.pdf");
     echo $result . "\n";
 } catch (Exception $e) {
     echo "Verification error: " . $e->getMessage() . "\n";
