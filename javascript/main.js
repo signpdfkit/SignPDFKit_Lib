@@ -78,7 +78,7 @@ async function signDigestFunction(digest, optionsParams) {
   try {
     const verifier = new SignPDFKitVerify(libDir);
     const verifyResult = verifier.verify(
-      "/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/javascript.pdf"
+      "../assets/output/javascript.pdf"
     );
     console.log("Verify Result:", verifyResult);
   } catch (err) {
