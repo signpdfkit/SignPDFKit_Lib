@@ -61,5 +61,5 @@ print(resultSign)
 
 # # Example usage of Verify PDF
 verifier = SignPDFKitVerify(libDir)
-resultVerify = verifier.verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/py.pdf")
+resultVerify = verifier.verify("../assets/output/py.pdf")
 print(resultVerify)
