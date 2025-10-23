@@ -98,7 +98,7 @@ public class Main {
             System.out.println("Sign result: " + result);
 
             Verify verifier = SignPDFKit.createVerifier(libDir);
-            String verifyResult = verifier.verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/java.pdf");
+            String verifyResult = verifier.verify("../assets/output/java.pdf");
             System.out.println("Verify result: " + verifyResult);
 
         } catch (Exception e) {
