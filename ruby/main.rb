@@ -84,7 +84,7 @@ end
 # Example usage of Verify PDF
 # Now pass LIB_DIR as the first parameter
 verifier = SignPDFKitVerify.new(LIB_DIR)
-result = verifier.verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/ruby.pdf")
+result = verifier.verify("../assets/output/ruby.pdf")
 if result
   puts "Verification result:"
   puts result
