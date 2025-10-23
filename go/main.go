@@ -105,6 +105,6 @@ func main() {
 	fmt.Println("Sign result:", signResult)
 
 	verifier, _ := SignPDFKitVerify(libDir)
-	verificationResult := verifier.Verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/go.pdf")
+	verificationResult := verifier.Verify("../assets/output/go.pdf")
 	fmt.Println("Verification result:", verificationResult)
 }
