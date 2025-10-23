@@ -77,7 +77,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Example: Verify PDF
     let verifier = SignPDFKitVerify::new(lib_dir)?;
-    let verify_result = verifier.verify("/Users/pusopskamsinas/Documents/Pribadi/Rust/signpdfkit/assets/output/rust.pdf")?;
+    let verify_result = verifier.verify("../assets/output/rust.pdf")?;
     println!("Verify result: {}", verify_result.unwrap());
 
     Ok(())
